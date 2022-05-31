@@ -1,7 +1,7 @@
 {
-  "name": "@alex_xu/react-slider-vertify",
+  "name": "react-slider-vertify",
   "version": "1.1.9",
-  "author": "alex_xu",
+  "author": "Thor",
   "description": "Slide verification component based on react",
   "keywords": [
     "slider-vertify",
@@ -13,8 +13,7 @@
     "frontend",
     "react",
     "react-component",
-    "ui",
-    "徐小夕"
+    "ui"
   ],
   "scripts": {
     "start": "dumi dev",
@@ -28,7 +27,7 @@
     "test:coverage": "umi-test --coverage"
   },
   "contributors": [
-    "alex_xu"
+    "Thor"
   ],
   "files": [
     "dist",
@@ -54,14 +53,6 @@
     "*.ts?(x)": [
       "prettier --parser=typescript --write"
     ]
-  },
-  "homepage": "https://github.com/MrXujiang/react-slider-vertify",
-  "bugs": {
-    "url": "https://github.com/MrXujiang/react-slider-vertify/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com:MrXujiang/react-slider-vertify.git"
   },
   "dependencies": {
     "@babel/runtime": "^7.15.4"
