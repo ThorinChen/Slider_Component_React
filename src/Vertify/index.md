@@ -1,4 +1,4 @@
-### 基本使用:
+### basic use:
 
 ```tsx
 import React from 'react';
@@ -9,7 +9,7 @@ export default () => {
 };
 ```
 
-### 设置宽高:
+### set width and height:
 
 ```tsx
 import React from 'react';
@@ -20,7 +20,7 @@ export default () => {
 };
 ```
 
-### 设置滑块边长和半径:
+### set slider side length and radius:
 
 ```tsx
 import React from 'react';
@@ -31,7 +31,7 @@ export default () => {
 };
 ```
 
-### 设置成功, 失败, 刷新时的回调:
+### callback when setting succeeded, failed and refreshed:
 
 ```tsx
 import React from 'react';
@@ -50,9 +50,9 @@ export default () => {
 };
 ```
 
-### 用户自定义验证逻辑:
+### user defined check logic:
 
-组件暴露了`onCustomVertify`方法, 并接受收了入参`vertify`对象, 我们可以控制 `spliced` 和`verified` 属性来控制是否验证成功, 即函数返回值必须包含 `spliced` 和 `verified` 两个布尔值的属性对象
+The component exposes the 'oncustomverify' method and accepts the incoming parameter 'verify' object. We can control whether the verification succeeds by controlling the 'split' and 'verified' attributes, that is, the function return value must contain attribute objects with Boolean values of 'split' and 'verified'
 
 ```tsx
 import React from 'react';
@@ -80,7 +80,7 @@ export default () => {
 };
 ```
 
-### 动态设置显示/ 隐藏:
+### Dynamic settings show / hide:
 
 ```tsx
 import React, { useState } from 'react';
@@ -108,10 +108,10 @@ export default () => {
   return (
     <>
       <div onClick={show} style={style}>
-        显示
+        show
       </div>
       <div onClick={hide} style={style}>
-        隐藏
+        hide
       </div>
       <Vertify
         width={320}
