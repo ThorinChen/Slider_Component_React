@@ -9,7 +9,7 @@ Slider-vertify is a sliding verification code component implemented by the front
 
 ## doc
 
-[react-slider-vertify](https://github.com/ThorinChen/Slider_Component_React/src/Vertify/index.md)
+[react-slider-vertify](https://github.com/ThorinChen/Slider_Component_React/blob/main/src/Vertify/index.md)
 
 ## Getting Started
 
@@ -66,4 +66,4 @@ export default () => {
 ```
 
 #### Example
- **Demo source：[click](https://github.com/ThorinChen/Slider_Component_React/src/Vertify/index.md)**
+ **Demo source：[click](https://github.com/ThorinChen/Slider_Component_React/blob/main/src/Vertify/index.md)**
