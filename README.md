@@ -47,10 +47,10 @@ export default () => {
   return (
     <>
       <div onClick={show} style={style}>
-        显示
+        show
       </div>
       <div onClick={hide} style={style}>
-        隐藏
+        hide
       </div>
       <Vertify
         width={320}
